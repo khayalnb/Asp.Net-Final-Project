@@ -1,6 +1,8 @@
 ﻿using EduHome.DataAccessLayer;
+using EduHome.Models;
 using EduHome.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +17,15 @@ namespace EduHome.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult>   Index()
         {
-            EduHomeViewModel model = new EduHomeViewModel();
-            model.Slides = _context.Slides.ToList();
+            EduHomeViewModel model = new EduHomeViewModel()
+            {
+                Slides = await _context.Slides.ToListAsync(),
+                BioInformation = await _context.bioInformation.FirstOrDefaultAsync()
+            }
+
+
 ;           return View(model);
         }   
 

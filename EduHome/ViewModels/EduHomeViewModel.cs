@@ -9,5 +9,7 @@ namespace EduHome.ViewModels
     public class EduHomeViewModel
     {
         public List<Slide> Slides { get; set; }
+
+        public BioInformation BioInformation { get; set; }
     }
 }

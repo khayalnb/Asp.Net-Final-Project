@@ -7,9 +7,12 @@
   <ItemGroup>
     <Compile Remove="Migrations\20210919142632_HomePageSlide.cs" />
     <Compile Remove="Migrations\20210919142632_HomePageSlide.Designer.cs" />
+    <Compile Remove="Migrations\20210920172354_FullInfo.cs" />
+    <Compile Remove="Migrations\20210920172354_FullInfo.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.18">
