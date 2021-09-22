@@ -8,6 +8,9 @@ C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\EduHome.d
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\EduHome.pdb
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\EduHome.Views.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\EduHome.Views.pdb
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -29,6 +32,8 @@ C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -134,6 +139,8 @@ C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.T
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.TagHelpers.output.cache
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.RazorCoreGenerate.cache
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Courses\Index.cshtml.g.cs
@@ -151,10 +158,3 @@ C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.c
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.dll
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.pdb
 C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.genruntimeconfig.cache
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
-C:\Users\ASUS\OneDrive\Desktop\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
