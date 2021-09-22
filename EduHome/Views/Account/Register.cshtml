@@ -1,7 +1,12 @@
-﻿
+﻿@model RegisterViewModel
 @{
     ViewData["Title"] = "Register";
 }
+<style>
+    .margin-bottom {
+        margin-bottom:25px;
+    }
+</style>
 
 <!-- Banner Area Start -->
 <div class="banner-area-wrapper">
@@ -28,20 +33,52 @@
                 <div class="login">
                     <div class="login-form-container">
                         <div class="login-text">
-                            <h2>login</h2>
-                            <span>Please login using account detail bellow.</span>
+                            <h2>Register</h2>
+                            <span>Please register using account detail bellow.</span>
                         </div>
                         <div class="login-form">
-                            <form action="#" method="post">
-                                <input type="text" name="user-name" placeholder="Username">
-                                <input type="password" name="user-password" placeholder="Password">
+                            <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+
+                            <form asp-controller="account" asp-action="register" method="post">
+                                @* FullName *@
+                                <div class="margin-bottom">
+                                    <input style="margin-bottom:0px !important; " type="text" asp-for="FullName" placeholder="FullName">
+                                    <span class="text-danger  " asp-validation-for="FullName"></span>
+                                </div>
+                               
+                                @* UserName *@
+                                <div class="margin-bottom">
+                                     <input style="margin-bottom:0px !important; " type="text" asp-for="UserName" placeholder="UserName">
+                                     <span class="text-danger " asp-validation-for="UserName"></span>
+                                </div>
+                               
+                                @* Email *@
+                                 <div class="margin-bottom">
+                                       <input style="margin-bottom:0px !important; " type="email" asp-for="Email" placeholder="Email">
+                                       <span class="text-danger  " asp-validation-for="Email"></span>  
+                                 </div>
+                               
+                                @* Password *@
+
+                                  <div class="margin-bottom">
+                                       <input style="margin-bottom:0px !important; " type="password" asp-for="Password" placeholder="Password">
+                                        <span class="text-danger" asp-validation-for="Password"></span>
+                                  </div>
+                                
+                                @* ConfirmPassword *@
+
+                                  <div class="margin-bottom">
+                                    <input type="password" asp-for="ConfirmPassword" placeholder="ConfirmPassword">
+                                    <span class="text-danger " asp-validation-for="ConfirmPassword"></span>
+                                  </div>
+                                
                                 <div class="button-box">
                                     <div class="login-toggle-btn">
                                         <input type="checkbox" id="remember">
                                         <label for="remember">Remember me</label>
                                         <a href="#">Forgot Password?</a>
                                     </div>
-                                    <button type="submit" class="default-btn">Login</button>
+                                    <button type="submit" class="default-btn">Register</button>
                                 </div>
                             </form>
                         </div>
