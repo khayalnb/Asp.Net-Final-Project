@@ -11,5 +11,7 @@ namespace EduHome.ViewModels
         public List<Slide> Slides { get; set; }
 
         public BioInformation BioInformation { get; set; }
+
+        public ContactMessage ContactMessage { get; set; }
     }
 }
